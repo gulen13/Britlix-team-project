@@ -1,7 +1,7 @@
 body {
-    font-size: 20px;
-    font-family: poppins sans-serif;
-    color: #8F95A5;
+  font-size: 20px;
+  font-family: poppins sans-serif;
+  color: #8f95a5;
 }
 h1,
 h2,
@@ -10,29 +10,100 @@ h4,
 h5,
 h6,
 p {
-	margin: 0;
+  margin: 0;
 }
 .list {
-	list-style: none;
-	padding-left: 0;
-	margin: 0;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 .link {
-	text-decoration: none;
-	color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 address {
-	font-style: normal;
-	
+  font-style: normal;
 }
 .container {
-    width: 1368px;
-    padding: 0 15px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 1368px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Pricing */
+.pricing-title {
+  margin-top: 0;
+  margin-bottom: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  text-align: center;
+
+  color: #000000;
+}
+.pricing-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pricing-img-tetle {
+  margin-bottom: 18px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.6;
+
+  text-transform: capitalize;
+
+  color: #263238;
+}
+.pricing-img-text {
+  display: block;
+  width: 426px;
+  margin-bottom: 57px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+
+  min-width: 426px;
+}
+.pricing-pricelist {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.pricing-price {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  color: #263238;
+}
+.pricing-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  color: #546269;
 }
