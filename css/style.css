@@ -87,3 +87,47 @@ address {
 	border-radius: 10px;
 	color: #FFFFFF;
 }
+.container-about{
+	display: flex;
+}
+
+.container-about-child{
+	width: 652px;
+	margin-right: 146px;
+}
+
+.about-title{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 72px;
+	margin-bottom: 60px;
+	
+	color: #000000;
+}
+
+.about-text{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1.8;
+	margin-bottom: 60px;
+	color: #8F95A5;
+}
+
+.about-text-list{
+		max-width: 108px;
+		margin-bottom: 0;
+}
+
+.list-about{
+	display: flex;
+	gap: 131px;
+}
+
+.about-title-list{
+	margin-bottom: 6px;
+	color: #2A3246;
+}
