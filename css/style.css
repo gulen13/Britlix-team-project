@@ -135,13 +135,9 @@ address {
 /* Contact us */
 
 .container-contact {
-
 	display: flex;
+	justify-content: space-between;
 	font-family: poppins;
-}
-
-.contact-img {
-	margin-right: 144px;
 }
 
 .contact-title {
@@ -157,22 +153,13 @@ address {
 	line-height: calc(30/20);
 	color: #8F95A5;
 	width: 654px;
-
-}
-
-.subscribe {
-	display: flex;
-	/* width: 767px; */
-	align-items: flex-start;
-
 }
 
 .input {
-	display: inline;
 	padding: 21px 31px;
 	width: 425px;
 	height: 70px;
-	/* margin-right: 30px; */
+	margin-right: 30px;
 	font-size: 16px;
 	line-height: 1.88;
 	border: 1px solid #8F95A5;
@@ -182,15 +169,17 @@ address {
 .subscribe-btn {
 	padding: 20px 56px;
 	width: 312px;
-	height: 70px;
+	min-height: 70px;
 	font-weight: 500;
 	font-size: 20px;
 	line-height: calc(30/20);
 	text-align: center;
 	letter-spacing: 0.03em;
+	align-items: center;
 
 	background-color: #263238;
 	color: #FFFFFF;
+	border: 0;
 	border-radius: 10px;
 	cursor: pointer;
 }
