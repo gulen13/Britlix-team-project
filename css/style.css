@@ -124,7 +124,7 @@ address {
 /*--------- About -----------*/
 
 
-/*-------- Pricing ---------*/
+/*-------- Pricing ----------*/
 .pricing-title {
   margin-top: 0;
   margin-bottom: 60px;
@@ -134,14 +134,20 @@ address {
   font-size: 48px;
   line-height: 1.5;
   text-align: center;
+
   color: #000000;
 }
 .pricing-list {
+  height: 584px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
+.pricing-img{
+  margin-bottom: 31px;
+}
+
 .pricing-img-tetle {
   margin-bottom: 18px;
   font-family: "Poppins";
@@ -149,25 +155,38 @@ address {
   font-weight: 600;
   font-size: 30px;
   line-height: 1.6;
+
   text-transform: capitalize;
+
   color: #263238;
 }
 .pricing-img-text {
   display: block;
   width: 426px;
-  margin-bottom: 57px;
+  
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 1.5;
+
   min-width: 426px;
 }
+.pricing-img-text-first{
+  margin-bottom: 30px;
+}
+.pricing-img-text-secondary{
+  margin-bottom: 60px;
+}
 .pricing-pricelist {
+  width: 260px;
   margin-bottom: 0;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
+
+  background-color: #EEEEEE;
+  border-radius: 5px;
 }
 .pricing-price {
   font-family: "Poppins";
@@ -175,8 +194,8 @@ address {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
+
   text-align: center;
-  color: #263238;
 }
 .pricing-text {
   font-family: "Poppins";
@@ -184,7 +203,5 @@ address {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
-  color: #546269;
 }
-/*------- Pricing ---------*/
+/*-------- Pricing ----------*/
