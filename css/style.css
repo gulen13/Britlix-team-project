@@ -73,7 +73,7 @@ address {
 	font-family: 'Poppins';
 	font-weight: 400;
 	font-size: 36px;
-	line-height: calc(54/36)
+	line-height: calc(54/36);
 	text-align: center;
 	letter-spacing: 0.03em;
 	background-color: #263238;
