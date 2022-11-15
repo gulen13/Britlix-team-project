@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  font-family: poppins sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #8f95a5;
 }
 h1,
@@ -205,3 +205,82 @@ address {
   line-height: 1.5;
 }
 /*-------- Pricing ----------*/
+
+
+/*-------- Contact ---------*/
+.contact .container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 55px;
+}
+.contact-img {
+  margin-right: 144px;
+}
+.section-title {
+  margin-bottom: 60px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 48px;
+  line-height: calc(72/48);
+  color: #000000;
+  text-transform: capitalize;
+}
+.contact-text {
+  width: 654px;
+  margin-bottom: 30px;
+  font-family: 'Poppins';
+  line-height: calc(30/20);
+}
+.contact-form {
+  display: flex;
+  gap: 30px;
+}
+.form {
+  padding: 20px 30px;
+  min-width: 425px;
+  border: 1px solid #8F95A5;
+  border-radius: 10px;
+}
+.contact-btn {
+  padding: 20px 56px;
+  min-width: 312px;
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: calc(30/20);
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #263238;
+  border-radius: 10px;
+}
+/*-------- Contact ---------*/
+
+/*-------- Footer -----------*/
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22px;
+  padding-bottom: 77px;
+  border-top: 1px solid #C4C4C4;;
+}
+.logo {
+  font-family: 'Poppins';
+  font-size: 36px;
+  line-height: calc(54/36);
+  color: #000000;
+}
+.logo-span {
+  color: #939393;
+}
+.footer-link {
+  display: flex;
+  gap: 80px;
+
+  font-family: 'Poppins';
+  font-size: 24px;
+  line-height: calc(36/24);
+  letter-spacing: 0.02em;
+  cursor: pointer;
+}
+/*-------- Footer -----------*/
