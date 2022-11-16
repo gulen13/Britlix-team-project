@@ -29,17 +29,69 @@ img {
 address {
   font-style: normal;
 }
+.btn {
+  font-family: inherit;
+  cursor: pointer;
+  border: 0;
+}
 .container {
   width: 1368px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
 }
-
+/*---------Header---------*/
+.header{
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-header {
+  margin-right: 236px;
+}
+.site-nav {
+  display: flex;
+  gap: 50px;
+}
+.nav-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 500;
+  line-height: calc(30/20);
+  color: #263238;
+}
+.header-btn {
+  padding: 20px 56px;
+  min-width: 312px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: calc(30/20);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #000000;
+  background-color: #fff;
+  border: 2px solid #263238;
+  border-radius: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.header-btn:hover{
+  background-color: #263238;
+  color: #FFFFFF;
+  border: 2px solid transparent;
+}
+/*---------Header---------*/
 
 /*--------- Hero ----------*/
 .hero-section {
-	padding-top: 55px;
 	padding-bottom: 180px;
 }
 .hero-container {
@@ -64,11 +116,6 @@ address {
 	font-size: 24px;
 	line-height: calc(36/24);
 	color: #8F95A5;
-}
-.btn {
-  font-family: inherit;
-  cursor: pointer;
-  border: 0;
 }
 .hero-btn {
 	padding: 22px 64px;
