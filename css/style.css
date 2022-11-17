@@ -43,6 +43,7 @@ address {
 .section {
   padding-bottom: 180px;
 }
+
 /*---------Header---------*/
 .header {
   padding-top: 55px;
@@ -165,6 +166,7 @@ address {
   background: #f5f5f5;
   border-radius: 10px;
   padding: 32px 14px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .speaking {
   width: 426px;
@@ -222,6 +224,15 @@ address {
   font-size: 20px;
   line-height: 1.5;
   color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.skills-anker:hover {
+  background-color: #fff;
+  border: 2px solid #263238;
+  color: #000000;
 }
 
 /*--------- Skills -------- */
