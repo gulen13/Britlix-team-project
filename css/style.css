@@ -1,6 +1,6 @@
 body {
   font-size: 20px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #8f95a5;
 }
 h1,
@@ -40,8 +40,11 @@ address {
   margin-left: auto;
   margin-right: auto;
 }
+.section {
+  padding-bottom: 180px;
+}
 /*---------Header---------*/
-.header{
+.header {
   padding-top: 55px;
   padding-bottom: 55px;
 }
@@ -50,7 +53,7 @@ address {
   justify-content: space-between;
   align-items: center;
 }
-.nav-header{
+.nav-header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,7 +69,7 @@ address {
   padding-top: 20px;
   padding-bottom: 20px;
   font-weight: 500;
-  line-height: calc(30/20);
+  line-height: calc(30 / 20);
   color: #263238;
 }
 .header-btn {
@@ -74,63 +77,64 @@ address {
   min-width: 312px;
   font-weight: 400;
   font-size: 20px;
-  line-height: calc(30/20);
+  line-height: calc(30 / 20);
   text-align: center;
   letter-spacing: 0.03em;
   color: #000000;
   background-color: #fff;
   border: 2px solid #263238;
   border-radius: 10px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-btn:hover{
+.header-btn:hover {
   background-color: #263238;
-  color: #FFFFFF;
+  color: #ffffff;
   border: 2px solid transparent;
 }
 /*---------Header---------*/
 
 /*--------- Hero ----------*/
-.hero-section {
-	padding-bottom: 180px;
-}
 .hero-container {
-	display: flex;
-	justify-content: space-around;
-	align-items: flex-start;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 .hero-leftside {
-	margin-right: 144px;
+  margin-right: 144px;
 }
 .hero-title {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 
-	font-weight: 600;
-	font-size: 64px;
-	line-height: calc(80/64);
-	color: #000000;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(80 / 64);
+  color: #000000;
 }
 .hero-text {
-	margin-bottom: 60px;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: calc(36/24);
-	color: #8F95A5;
+  margin-bottom: 60px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: calc(36 / 24);
+  color: #8f95a5;
 }
 .hero-btn {
-	padding: 22px 64px;
-	min-width: 426px;
-	font-weight: 400;
-	font-size: 36px;
-	line-height: calc(54/36);
-	text-align: center;
-	letter-spacing: 0.03em;
-	background-color: #263238;
-	border-radius: 10px;
-	color: #FFFFFF;
+  padding: 22px 64px;
+  min-width: 426px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(54 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #263238;
+  border-radius: 10px;
+  color: #ffffff;
   border: 2px solid transparent;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-btn:hover {
   background-color: #fff;
@@ -139,47 +143,128 @@ address {
 }
 /*--------- Hero -----------*/
 
+/*--------- Skills -------- */
+.title-skills {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.5;
+  color: #000000;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+}
+.skills-list-item {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 32px 14px;
+}
+.speaking {
+  width: 426px;
+  height: 947px;
+}
+.writing {
+  width: 426px;
+  height: 579px;
+}
+.reading {
+  width: 426px;
+  height: 579px;
+}
+.listening {
+  width: 882px;
+  height: 338px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.skills-list-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.5;
+  color: #263238;
+  margin-top: 24px;
+}
+.skills-list-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #8f95a5;
+  margin-top: 20px;
+}
+.skills-anker {
+  display: block;
+  border: 1px solid #263238;
+  background: #263238;
+  border-radius: 10px;
+  width: 230px;
+  height: 60px;
+  text-align: center;
+  padding: 15px 51px;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/*--------- Skills -------- */
 
 /*--------- About -----------*/
-.container-about{
-	display: flex;
+.container-about {
+  display: flex;
 }
-.container-about-child{
-	width: 652px;
-	margin-right: 146px;
+.container-about-child {
+  width: 652px;
+  margin-right: 146px;
 }
-.about-title{
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 600;
-	font-size: 48px;
-	line-height: 72px;
-	margin-bottom: 60px;
-	color: #000000;
+.about-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 72px;
+  margin-bottom: 60px;
+  color: #000000;
 }
-.about-text{
-	font-family: 'Poppins';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 1.8;
-	margin-bottom: 60px;
-	color: #8F95A5;
+.about-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 60px;
+  color: #8f95a5;
 }
-.about-text-list{
-		max-width: 108px;
-		margin-bottom: 0;
+.about-text-list {
+  max-width: 108px;
+  margin-bottom: 0;
 }
-.list-about{
-	display: flex;
-	gap: 131px;
+.list-about {
+  display: flex;
+  gap: 131px;
 }
-.about-title-list{
-	margin-bottom: 6px;
-	color: #2A3246;
+.about-title-list {
+  margin-bottom: 6px;
+  color: #2a3246;
 }
 /*--------- About -----------*/
-
 
 /*-------- Pricing ----------*/
 .pricing-title {
@@ -201,7 +286,7 @@ address {
   justify-content: center;
   gap: 30px;
 }
-.pricing-img{
+.pricing-img {
   margin-bottom: 31px;
 }
 
@@ -220,7 +305,7 @@ address {
 .pricing-img-text {
   display: block;
   width: 426px;
-  
+
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -229,10 +314,10 @@ address {
 
   min-width: 426px;
 }
-.pricing-img-text-first{
+.pricing-img-text-first {
   margin-bottom: 30px;
 }
-.pricing-img-text-secondary{
+.pricing-img-text-secondary {
   margin-bottom: 60px;
 }
 .pricing-pricelist {
@@ -242,7 +327,7 @@ address {
   align-items: center;
   justify-content: space-around;
 
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border-radius: 5px;
 }
 .pricing-price {
@@ -263,7 +348,6 @@ address {
 }
 /*-------- Pricing ----------*/
 
-
 /*-------- Contact ---------*/
 .contact .container {
   display: flex;
@@ -275,18 +359,18 @@ address {
 }
 .section-title {
   margin-bottom: 60px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 600;
   font-size: 48px;
-  line-height: calc(72/48);
+  line-height: calc(72 / 48);
   color: #000000;
   text-transform: capitalize;
 }
 .contact-text {
   width: 654px;
   margin-bottom: 30px;
-  font-family: 'Poppins';
-  line-height: calc(30/20);
+  font-family: "Poppins";
+  line-height: calc(30 / 20);
 }
 .contact-form {
   display: flex;
@@ -295,18 +379,18 @@ address {
 .form {
   padding: 20px 30px;
   min-width: 425px;
-  border: 1px solid #8F95A5;
+  border: 1px solid #8f95a5;
   border-radius: 10px;
 }
 .contact-btn {
   padding: 20px 56px;
   min-width: 312px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-weight: 500;
-  line-height: calc(30/20);
+  line-height: calc(30 / 20);
   letter-spacing: 0.03em;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #263238;
   border-radius: 10px;
 }
@@ -319,12 +403,12 @@ address {
   justify-content: space-between;
   padding-top: 22px;
   padding-bottom: 77px;
-  border-top: 1px solid #C4C4C4;;
+  border-top: 1px solid #c4c4c4;
 }
 .logo {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 36px;
-  line-height: calc(54/36);
+  line-height: calc(54 / 36);
   color: #000000;
 }
 .logo-span {
@@ -334,9 +418,9 @@ address {
   display: flex;
   gap: 80px;
 
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 24px;
-  line-height: calc(36/24);
+  line-height: calc(36 / 24);
   letter-spacing: 0.02em;
   cursor: pointer;
 }
