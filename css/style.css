@@ -370,7 +370,6 @@ address {
 }
 .section-title {
   margin-bottom: 60px;
-  font-family: "Poppins";
   font-weight: 600;
   font-size: 48px;
   line-height: calc(72 / 48);
@@ -380,30 +379,49 @@ address {
 .contact-text {
   width: 654px;
   margin-bottom: 30px;
-  font-family: "Poppins";
   line-height: calc(30 / 20);
 }
 .contact-form {
   display: flex;
   gap: 30px;
 }
-.form {
+.input {
   padding: 20px 30px;
-  min-width: 425px;
+  width: 425px;
+  height: 70px;
   border: 1px solid #8f95a5;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input::placeholder{
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  color: #8F95A5;
+}
+.input:hover {
+  border: 2px solid #263238;
 }
 .contact-btn {
   padding: 20px 56px;
   min-width: 312px;
-  font-family: "Poppins";
+  height: 70px;
   font-weight: 500;
   line-height: calc(30 / 20);
   letter-spacing: 0.03em;
   text-align: center;
   color: #ffffff;
   background-color: #263238;
+  border: 2px solid #263238;
   border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact-btn:hover {
+  background-color: #ffffff;
+  border: 2px solid #263238;
+  color: #000000;
 }
 /*-------- Contact ---------*/
 
@@ -417,7 +435,6 @@ address {
   border-top: 1px solid #c4c4c4;
 }
 .logo {
-  font-family: "Poppins";
   font-size: 36px;
   line-height: calc(54 / 36);
   color: #000000;
@@ -428,11 +445,15 @@ address {
 .footer-link {
   display: flex;
   gap: 80px;
-
-  font-family: "Poppins";
+}
+.link-item {
   font-size: 24px;
   line-height: calc(36 / 24);
   letter-spacing: 0.02em;
   cursor: pointer;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.link-item:hover {
+  color: #000000;
 }
 /*-------- Footer -----------*/
